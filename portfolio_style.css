@@ -73,12 +73,16 @@ h2 {
     flex-direction: row;
     font-size: 30px;
     text-align: center;
+    margin-top: 0px;
+}
+
+.flex-container-1 {
     margin-top: 60px;
 }
 
 .flex-item{
     border:5px solid rgb(194, 79, 1);
-    margin: 10px;
+    margin: 100px;
     flex: 50%;
     color: rgb(148, 207, 172);
 }
@@ -88,8 +92,13 @@ h2 {
 }
 
 .flex-item h2 {
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 20px;
+}
+
+.flex-item p {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .flex-item .btn {
