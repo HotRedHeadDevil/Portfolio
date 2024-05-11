@@ -126,7 +126,7 @@ h2 {
 .flex-item-image1 {
     margin-top: 110px;
 }
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
     .flex-container {
       flex-direction: column;
  }
