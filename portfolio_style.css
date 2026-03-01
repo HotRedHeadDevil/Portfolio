@@ -73,6 +73,7 @@ h2 {
     flex-direction: row;
     font-size: 30px;
     text-align: center;
+    align-items: center;
 }
 
 .flex-container-1 {
@@ -80,11 +81,22 @@ h2 {
 }
 
 .flex-container-2 {
-    margin-left: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .flex-container-2 p {
     margin: 50px;
+}
+
+.flex-container-3 {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.flex-container-4 {
+    margin-left: 75px;
+    margin-right: 75px;
 }
 .flex-container-CV {
     display: block;
@@ -92,39 +104,38 @@ h2 {
     margin-right: auto;
 }
 .flex-item{
-    border:5px solid #db289f;
+    border: 5px solid #db289f;
     margin: 30px;
+    padding: 80px 50px 40px 50px;
     flex: 50%;
     color: white;
 }
 .flex-item1 {
     border: none;
     margin-top: 50px;
+    padding: 0px;
 }
 
 .flex-item h2 {
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin: 0px 0px 40px 0px;
 }
 
 .flex-item p {
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin: 0px 0px 40px 0px;
+    line-height: 1.5;
 }
 
 .flex-item .btn {
   color: #1cc6f0;
+  display: inline-block;
 }
 
 .flex-item-image {
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.flex-item-image1 {
-    margin-top: 110px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 @media only screen and (max-width: 480px) {
     .flex-container {
@@ -138,46 +149,78 @@ h2 {
 }
 .flex-container {
     margin-left: 0px;
+    margin-right: 0px;
 }
 .flex-container-1 {
     margin-top: 0px;
 }
+.flex-container-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flex-container-3 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flex-container-4 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .flex-item{
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
+    padding-bottom: 40px;
+    flex: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 .flex-item1 {
     border: none;
     margin-top: 50px;
+    width: 100%;
 }
 
 .flex-item h2 {
     margin-top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .flex-item p {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .flex-item .btn {
   color: #92d5e6;
+  display: inline-block;
+  margin-bottom: 0px;
 }
 
 .flex-item-image {
     border: none;
-    margin: 20px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto; 
+    margin: 0px;
+    display: block;
+    flex: none;
+    width: 100%;
+    text-align: center;
 }
+
+.flex-item-image img {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+.flex-item-image1 {
+    margin-top: 0px;
+}
+
 .flex-item-image2 {
-  display: none;  
+  display: block;  
 }
 .flex-item-image3 {
-    display: none;  
+    display: block;  
   }
 
 }
